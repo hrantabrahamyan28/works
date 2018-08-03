@@ -1,0 +1,66 @@
+@font-face {
+			font-family: "RobotoRegular";
+			src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot");
+			src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/Roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
+			url("../fonts/Roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "RobotoLight";
+			src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot");
+			src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/Roboto/RobotoLight/RobotoLight.woff") format("woff"),
+			url("../fonts/Roboto/RobotoLight/RobotoLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+@font-face {
+			font-family: "RobotoMedium";
+			src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+			src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+			url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "MyriadProRegular";
+			src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+			src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "OpenSansRegular";
+			src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+			src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+			url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+@font-face {
+			font-family: "OpenSansBold";
+			src: url("../fonts/OpenSans/OpenSansBold/OpenSansBold.eot");
+			src: url("../fonts/OpenSans/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/OpenSans/OpenSansBold/OpenSansBold.woff") format("woff"),
+			url("../fonts/OpenSans/OpenSansBold/OpenSansBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+@font-face {
+			font-family: "LatoRegular";
+			src: url("../fonts/Lato/LatoRegular/LatoRegular.eot");
+			src: url("../fonts/Lato/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/Lato/LatoRegular/LatoRegular.woff") format("woff"),
+			url("../fonts/Lato/LatoRegular/LatoRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

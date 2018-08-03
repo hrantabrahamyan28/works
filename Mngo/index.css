@@ -1,0 +1,37 @@
+div {
+    border: 1px solid #000;
+}
+header {
+    background: #0a0c35;
+    height: 400px;
+}
+.coise {
+    color: #ffffff;
+}
+.header_title {
+    color: #ffffff;
+}
+hr {
+    background: red;
+    width: 10%;
+    transform: rotate(-40deg)
+}
+.header_title__wrraper {
+    top: 0;
+    left: 0;
+}
+.text_place {
+    top: 0;
+    left: 30%;
+    z-index: 2;
+}
+.text_kids {
+    top: 30%;
+    right: 30%;
+    z-index: 2;
+}
+.header_line {
+    
+    left: 30%;
+    z-index: 1;
+}

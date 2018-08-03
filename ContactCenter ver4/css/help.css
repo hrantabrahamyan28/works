@@ -1,0 +1,368 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	-ms--overflow-scrolling: touch;
+	-moz--overflow-scrolling: touch;
+	-o--overflow-scrolling: touch;
+}
+a {
+	display: block;
+}
+a:hover {
+	text-decoration: none;
+}
+.col { 
+	border: 1px solid transparent; /*safari*/ 
+}
+.iu__connect_out {
+	padding: 0;
+	padding-right: 8px;
+	padding-left: 8px;
+	background: #2b343e url(../img/side_menu.png) no-repeat  center 13px;
+	font-family: "RobotoLight";
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 11px;
+	transition: all .2s ease-out;
+}
+.iu__connect_out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center 13px;
+	transition: all .2s ease-out;
+}
+.iu__connect_out:active {
+	background: #222932 url(../img/side_menu.png) no-repeat  center 13px;
+	transition: all .1s ease-out;
+}
+.iu__connect_in {
+	padding: 0;
+	padding-top: 60px;
+	color: #ffffff;
+	border-bottom: 2px solid #4b525b;
+}
+.home__out {
+	background: #2b343e url(../img/side_menu.png) no-repeat  center -73px;
+	transition: all .2s ease-out;
+}
+.home__out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center -73px;
+	transition: all .2s ease-out;
+}
+.home__out:active {
+	border-left: 6px solid #23add8;
+	background: #222932 url(../img/side_menu.png) no-repeat  center -73px;
+	transition: all .2s ease-out;
+}
+.home__in {
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 6px;
+}
+.call__out {
+	background: #2b343e url(../img/side_menu.png) no-repeat  center -173px;
+	transition: all .2s ease-out;
+}
+.call__out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center -173px;
+	transition: all .2s ease-out;
+}
+.call__out:active {
+	border-left: 6px solid #23add8;
+	background: #222932 url(../img/side_menu.png) no-repeat  center -173px;
+	transition: all .2s ease-out;
+}
+.call__in {
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 6px;
+}
+.chat__out {
+	background: #2b343e url(../img/side_menu.png) no-repeat  center -273px;
+	transition: all .2s ease-out;
+}
+.chat__out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center -273px;
+	transition: all .2s ease-out;
+}
+.chat__out:active {
+	border-left: 6px solid #23add8;
+	background: #222932 url(../img/side_menu.png) no-repeat  center -273px;
+	transition: all .2s ease-out;
+}
+.chat__in {
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 6px;
+}
+.email__out {
+	background: #2b343e url(../img/side_menu.png) no-repeat  center -373px;
+	transition: all .2s ease-out;
+}
+.email__out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center -373px;
+	transition: all .2s ease-out;
+}
+.email__out:active {
+	border-left: 6px solid #23add8;
+	background: #222932 url(../img/side_menu.png) no-repeat  center -373px;
+	transition: all .2s ease-out;
+}
+.email__in {
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 6px;
+}
+.social__out {
+	background: #2b343e url(../img/side_menu.png) no-repeat  center -473px;
+	transition: all .2s ease-out;
+}
+.social__out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center -473px;
+	transition: all .2s ease-out;
+}
+.social__out:active {
+	border-left: 6px solid #23add8;
+	background: #222932 url(../img/side_menu.png) no-repeat  center -473px;
+	transition: all .2s ease-out;
+}
+.social__in {
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 6px;
+}
+.reports__out {
+	background: #2b343e url(../img/side_menu.png) no-repeat  center -573px;
+	transition: all .2s ease-out;
+}
+.reports__out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center -573px;
+	transition: all .2s ease-out;
+}
+.reports__out:active {
+	border-left: 6px solid #23add8;
+	background: #222932 url(../img/side_menu.png) no-repeat  center -573px;
+	transition: all .2s ease-out;
+}
+.reports__in {
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 6px;
+}
+.help__out {
+	background: #2b343e url(../img/side_menu.png) no-repeat  center -673px;
+	transition: all .2s ease-out;
+}
+.help__out:hover {
+	border-left: 6px solid #23add8;
+	background: #232a33 url(../img/side_menu.png) no-repeat  center -673px;
+	transition: all .2s ease-out;
+}
+.help__out:active {
+	border-left: 6px solid #23add8;
+	background: #222932 url(../img/side_menu.png) no-repeat  center -673px;
+	transition: all .2s ease-out;
+}
+.help__in {
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 6px;
+}
+.nav__button_out {
+	padding: 0;
+	padding-bottom: 11px;
+	padding-right: 8px; /*???????*/
+	padding-left: 8px;
+	font-family: "OpenSansRegular";
+	font-size: 16px;
+	text-align: center;
+	transition: all .2s ease-out;
+}
+.nav__button_in {
+	color: #ffffff;
+	border-bottom: 2px solid #4b525b;
+}
+
+.button__left {
+	#border: 1px solid #000;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	padding-left: 40px;
+	padding-right: 0;
+}
+.make__call {
+	font-family: "OpenSansBold";
+	font-size: 20px;
+	color: #ffffff;
+	background: #23b7e5;
+	padding-right: 39px;
+	padding-left: 39px;
+	transition: all .2s ease-out;
+}
+.make__call:hover {
+	background: #23abe5;
+	transition: all .2s ease-out;
+}
+.make__call:active {
+	background: #23a1e5;
+	transition: all .1s ease-out;
+}
+.button__right {
+	#border: 1px solid red;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	padding-left: 30px;
+}
+.online {
+	font-family: "OpenSansRegular";
+	font-size: 20px;
+	color: #ffffff;
+	background: #27c24d;
+	padding-right: 20px;
+	padding-left: 20px;
+	transition: all .2s ease-out;
+}
+.online:hover {
+	background: #27b84d;
+	transition: all .2s ease-out;
+}
+.online:active {
+	background: #27ad4d;
+	transition: all .1s ease-out;
+}
+.row {
+	border: 1px solid yellow;
+}
+.col-md-1 {
+	border: 1px solid #000;
+}
+.col-md-12{
+	border: 1px solid red;
+}
+.col-row {
+	border: 1px solid #000;
+}
+.gl {
+	border: 2px solid blue;
+}
+
+
+
+
+/*
+div class="container-fluid">
+            <div class="row">
+               <div class="col-md-1">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <button>sdasdasdasd</button>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        asdasd
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        asdasd
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        asdasd
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        asdasd
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        asdasd
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        asdasd
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        asdasd
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+*/
+
+
+
+
+/*
+ <div class="col-md-11 header">
+               <div class="row">
+                  <div class="col-2 button__left">
+                     <button class="btn make__call" type="button">Make call</button>
+                  </div>
+                  <div class="col-3 button__right">
+                     <button class="btn online" type="button">Online (12:01:05)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+                  </div>
+                  <div class="col-2 lang">
+                     <button class="change__lang"></button>
+                  </div>
+                  <div class="col-1">
+                     
+                  </div>
+                  <div class="col-1">
+                     
+                  </div>
+                  <div class="col-2">
+                     
+                  </div>
+               </div>
+            </div>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
